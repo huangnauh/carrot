@@ -1,8 +1,8 @@
 {
-    "homepage": "https://github.com/gsamokovarov/jump",
-    "description": "helps you navigate faster by learning your habits",
-    "license": "MIT",
     "version": "0.30.1",
+    "description": "helps you navigate faster by learning your habits",
+    "homepage": "https://github.com/gsamokovarov/jump",
+    "license": "MIT",
     "url": "https://github.com/gsamokovarov/jump/releases/download/v0.30.1/jump.exe",
     "hash": "9d491d0b35a3e9aa86affba02d181915d5b9ef0340818d5c6d1ef0145da974e7",
     "bin": "jump.exe",
