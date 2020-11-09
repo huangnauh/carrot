@@ -1,0 +1,21 @@
+{
+    "version": "0.22.1",
+    "description": "cat for markdown",
+    "homepage": "https://github.com/lunaryorn/mdcat",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lunaryorn/mdcat/releases/download/mdcat-0.22.1/mdcat-0.22.1-x86_64-pc-windows-msvc.zip",
+            "hash": "25875D0D193E9156344672FCEA915FE9045E33278C78BFE788F5D4D0C8C12D4E"
+        }
+    },
+    "bin": "mdcat.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lunaryorn/mdcat/releases/download/mdcat-$version/mdcat-$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
