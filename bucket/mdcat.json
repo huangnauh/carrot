@@ -10,7 +10,10 @@
         }
     },
     "bin": "mdcat.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/lunaryorn/mdcat",
+        "regex": "/releases/tag/mdcat-([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
