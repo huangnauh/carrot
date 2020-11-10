@@ -1,16 +1,16 @@
 {
-    "version": "0.5.2",
+    "version": "0.6.0",
     "description": "Make JSON greppable!",
     "homepage": "https://github.com/tomnomnom/gron",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tomnomnom/gron/releases/download/v0.5.2/gron-windows-amd64-0.5.2.zip",
-            "hash": "99C979AF14210B3343F54B2DCA09ABC44A95019BBC70AF17D7FDC025DF280BF8"
+            "url": "https://github.com/tomnomnom/gron/releases/download/v0.6.0/gron-windows-amd64-0.6.0.zip",
+            "hash": "ae9f72653c183dd9d80e7eab69b80a6c266509273101c91543e1b7a185f0f7ad"
         },
         "32bit": {
-            "url": "https://github.com/tomnomnom/gron/releases/download/v0.5.2/gron-windows-386-0.5.2.zip",
-            "hash": "A6E55BBAFDFE3F24602BD2FC895C471BD389B888005987C58D991D6D0D969A8F"
+            "url": "https://github.com/tomnomnom/gron/releases/download/v0.6.0/gron-windows-386-0.6.0.zip",
+            "hash": "e95968a6721eec8435632411b6541ffafa73626aa952587a49304d24bdbfaa2f"
         }
     },
     "bin": "gron.exe",
