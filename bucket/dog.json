@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "description": "Command-line DNS client",
+    "homepage": "https://github.com/ogham/dog",
+    "license": "EUPL-1.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ogham/dog/releases/download/v0.1.0/dog-v0.1.0-x86_64-pc-windows-msvc.zip",
+            "hash": "85E80EBD1560195FB9A2EB87C782D7A9E50D94AE76938AE4DF852CECDA7FCCED",
+            "extract_dir": "bin"
+        }
+    },
+    "bin": "dog.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ogham/dog/releases/download/v$version/dog-v$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
