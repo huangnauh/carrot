@@ -1,0 +1,30 @@
+{
+    "version": "1.11.1",
+    "description": "An open-source GitLab command line tool",
+    "homepage": "https://github.com/profclems/glab",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/profclems/glab/releases/download/v1.11.1/glab_1.11.1_windows_amd64.zip",
+            "hash": "DB9E9BDB09D21B8CBBE24DE3F4645FB549C853FF7DCFEF4DFA01084F94322080",
+            "extract_dir": "bin"
+        },
+        "32bit": {
+            "url": "https://github.com/profclems/glab/releases/download/v1.11.1/glab_1.11.1_windows_386.zip",
+            "hash": "43AE353606C25960F2793A4E1207CF4DA62464401B8839EE0C2E41F39306B2BF",
+            "extract_dir": "bin"
+        }
+    },
+    "bin": "glab.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/profclems/glab/releases/download/v$version/glab_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/profclems/glab/releases/download/v$version/glab_$version_windows_386.zip"
+            }
+        }
+    }
+}
