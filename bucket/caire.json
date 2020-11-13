@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/esimov/caire/releases/download/v$version/caire-$version-x86_64-windows-amd64.zip",
+                "url": "https://github.com/esimov/caire/releases/download/v$version/caire-$version-windows-amd64.zip",
                 "extract_dir": "caire-$version-windows-amd64"
             }
         }
