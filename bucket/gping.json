@@ -1,5 +1,5 @@
 {
-    "version": "0.6.8",
+    "version": "0.1.6",
     "description": "Ping, but with a graph",
     "homepage": "https://github.com/orf/gping",
     "license": "MIT",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/orf/gping/releases/download/$version/gping-Windows-x86_64.zip"
+                "url": "https://github.com/orf/gping/releases/download/v$version/gping-Windows-x86_64.zip"
             }
         }
     }
