@@ -1,0 +1,28 @@
+{
+    "version": "v1.1.1",
+    "description": "Go JSON Diff",
+    "homepage": "https://github.com/huangnauh/gojsondiff",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/huangnauh/gojsondiff/releases/download/v1.1.1/gojsondiff_1.1.1_Windows_x86_64.zip",
+            "hash": "284CFEF19BF560422EBD14C16254B24CB2AA375F6DAEED5C2CE1D028106E9C78"
+        },
+        "32bit": {
+            "url": "https://github.com/huangnauh/gojsondiff/releases/download/v1.1.1/gojsondiff_1.1.1_Windows_i386.zip",
+            "hash": "3905B2759644C4C59476E172FBD5A9DF2710C7F34EE4CFBE68AC980700BA4999"
+        }
+    },
+    "bin": "jd.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/huangnauh/gojsondiff/releases/download/v$version/gojsondiff_$version_Windows_x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/huangnauh/gojsondiff/releases/download/v$version/gojsondiff_$version_Windows_i386.zip"
+            }
+        }
+    }
+}
