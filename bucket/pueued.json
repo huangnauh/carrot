@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nukesor/pueue/releases/download/v0.9.0/pueued-windows-x86_64.exe",
+            "url": "https://github.com/Nukesor/pueue/releases/download/v0.9.0/pueued-windows-x86_64.exe#/pueued.exe",
             "hash": "f55e1236b5077eabff850d78f75908c817df3353c63f6cb82da8c0742d187c39"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Nukesor/pueue/releases/download/v$version/pueued-windows-x86_64.exe"
+                "url": "https://github.com/Nukesor/pueue/releases/download/v$version/pueued-windows-x86_64.exe#/pueued.exe"
             }
         }
     }
