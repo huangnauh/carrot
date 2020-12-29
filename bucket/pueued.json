@@ -1,12 +1,12 @@
 {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "description": "Manage your shell commands.Pueued is the daemon.",
     "homepage": "https://github.com/Nukesor/pueue",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nukesor/pueue/releases/download/v0.9.0/pueued-windows-x86_64.exe#/pueued.exe",
-            "hash": "f55e1236b5077eabff850d78f75908c817df3353c63f6cb82da8c0742d187c39"
+            "url": "https://github.com/Nukesor/pueue/releases/download/v0.10.0/pueued-windows-x86_64.exe#/pueued.exe",
+            "hash": "9e296341dc286cd609d22925ba2be7e68349387f1fc3f7e433bf2db586c0710a"
         }
     },
     "bin": "pueued.exe",
