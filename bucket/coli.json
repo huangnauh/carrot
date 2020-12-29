@@ -1,15 +1,15 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3-beta1",
     "description": "Storage Command Line utility for cluster management.",
     "homepage": "https://github.com/huangnauh",
     "architecture": {
         "64bit": {
-            "url": "http://collection.b0.upaiyun.com/softwares/coli/coli_0.0.2_windows_amd64.tar.gz",
-            "hash": "c7cf10225955bb81d9c96edf59ba269098619bd5c198877574030ccdab215154"
+            "url": "http://collection.b0.upaiyun.com/softwares/coli/coli_0.0.3-beta1_windows_amd64.tar.gz",
+            "hash": "c6eb12b26e405a678d5211c5fa30e376380c09d5c0fb3b5705922cd92f0fb2d9"
         },
         "32bit": {
-            "url": "http://collection.b0.upaiyun.com/softwares/coli/coli_0.0.2_windows_386.tar.gz",
-            "hash": "16befda1bde16a79c6608cd95e94551d1b7f2d2d77087f1756bc8d49a0575336"
+            "url": "http://collection.b0.upaiyun.com/softwares/coli/coli_0.0.3-beta1_windows_386.tar.gz",
+            "hash": "968881f8e534ecfb761f88fa6a28399492e132e305a25ca07a098db1fbd24a0e"
         }
     },
     "bin": "coli.exe",
