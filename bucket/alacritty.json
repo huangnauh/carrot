@@ -1,13 +1,13 @@
 {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "description": "GPU-accelerated terminal emulator",
     "homepage": "https://github.com/alacritty/alacritty",
     "license": "Apache-2.0",
     "suggest": {
         "vcredist": "extras/vcredist2017"
     },
-    "url": "https://github.com/alacritty/alacritty/releases/download/v0.7.0/Alacritty-v0.7.0-portable.exe#/alacritty.exe",
-    "hash": "e2a49f2d1b76dc53c949db9280737da1cd63cf8e40b0266b1a9e8cfe73b37c43",
+    "url": "https://github.com/alacritty/alacritty/releases/download/v0.7.1/Alacritty-v0.7.1-portable.exe#/alacritty.exe",
+    "hash": "7d96a251ce657a6ce5e64924e3585f2afe9cc0658d077c15ec82adc4398380ed",
     "bin": "alacritty.exe",
     "shortcuts": [
         [
