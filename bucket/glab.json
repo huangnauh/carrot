@@ -5,12 +5,12 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/profclems/glab/releases/download/v1.12.1/glab_1.12.1_windows_amd64.zip",
+            "url": "https://github.com/profclems/glab/releases/download/v1.12.1/glab_1.12.1_windows_x86_64.zip",
             "hash": "ddebd39ba72c12837702bcde6fc5695fcc0dee7b8ac572cb2d154a8a2b7fda96",
             "extract_dir": "bin"
         },
         "32bit": {
-            "url": "https://github.com/profclems/glab/releases/download/v1.12.1/glab_1.12.1_windows_386.zip",
+            "url": "https://github.com/profclems/glab/releases/download/v1.12.1/glab_1.12.1_windows_i386.zip",
             "hash": "9dd010bad88e755aa81b34e823b8dcab99591107a4db57f4331bb4e9edcee288",
             "extract_dir": "bin"
         }
@@ -20,10 +20,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/profclems/glab/releases/download/v$version/glab_$version_windows_amd64.zip"
+                "url": "https://github.com/profclems/glab/releases/download/v$version/glab_$version_windows_x86_64.zip"
             },
             "32bit": {
-                "url": "https://github.com/profclems/glab/releases/download/v$version/glab_$version_windows_386.zip"
+                "url": "https://github.com/profclems/glab/releases/download/v$version/glab_$version_windows_i386.zip"
             }
         }
     }
