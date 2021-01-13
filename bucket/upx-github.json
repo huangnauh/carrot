@@ -1,16 +1,16 @@
 {
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "UPYUN Storage Command Tool",
     "homepage": "https://github.com/upyun/upx",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/upyun/upx/releases/download/v0.3.3/upx_0.3.3_Windows_x86_64.zip",
-            "hash": "0e40b4feca728e4c8c42b8bbd2f4d64940fd91e40ca5a81ce6988d179bcbc284"
+            "url": "https://github.com/upyun/upx/releases/download/v0.3.4/upx_0.3.4_Windows_x86_64.zip",
+            "hash": "f7fcbc7ce998192666db77f90d9efece991bdea2c07383092b7d275ac61cdd33"
         },
         "32bit": {
-            "url": "https://github.com/upyun/upx/releases/download/v0.3.3/upx_0.3.3_Windows_i386.zip",
-            "hash": "3c1736b73d193fb5f529498163c2ce3e59cb76a7642e5511cdf92179d85e49a9"
+            "url": "https://github.com/upyun/upx/releases/download/v0.3.4/upx_0.3.4_Windows_i386.zip",
+            "hash": "797fc196b2397df6b8f723837db6571f4cb3f462606bc150dffeddb910983d78"
         }
     },
     "bin": "upx.exe",
