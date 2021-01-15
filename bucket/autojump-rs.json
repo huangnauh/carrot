@@ -13,8 +13,10 @@
             "hash": "0a7fe9676fd2d5e57f3479710e8fb0fe65654cff81dda3eaec2c9716036b3f44"
         }
     },
-    "bin": ["autojump.exe",
-        "integrations\\"],
+    "bin": [
+        "autojump.exe",
+        "integrations\\"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
