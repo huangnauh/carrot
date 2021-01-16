@@ -1,18 +1,18 @@
 {
-    "version": "0.5.3",
+    "version": "0.5.4",
     "description": "A more intuitive version of du in rust",
     "homepage": "https://github.com/bootandy/dust",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/bootandy/dust/releases/download/v0.5.3/dust-v0.5.3-x86_64-pc-windows-msvc.zip",
-            "hash": "4A99742497FD5950855323825257F639928E363DB65478BFBADF7E3BE873C548",
-            "extract_dir": "dust-v0.5.3-x86_64-pc-windows-msvc"
+            "url": "https://github.com/bootandy/dust/releases/download/v0.5.4/dust-v0.5.4-x86_64-pc-windows-msvc.zip",
+            "hash": "27a519e6e93fea4f7c0c53cefd145a9fd6d1cd13b57e8eac5b30169e639d4cc3",
+            "extract_dir": "dust-v0.5.4-x86_64-pc-windows-msvc"
         },
         "32bit": {
-            "url": "https://github.com/bootandy/dust/releases/download/v0.5.3/dust-v0.5.3-i686-pc-windows-msvc.zip",
-            "hash": "103102D57064964782E0EE9BCBF30384059A9189183135B624CE2BF5E63BE734",
-            "extract_dir": "dust-v0.5.3-i686-pc-windows-msvc"
+            "url": "https://github.com/bootandy/dust/releases/download/v0.5.4/dust-v0.5.4-i686-pc-windows-msvc.zip",
+            "hash": "9377c80a21d276a36a6c17419b51f5dfa0f588ab71e5de1806ecb98867de5e9d",
+            "extract_dir": "dust-v0.5.4-i686-pc-windows-msvc"
         }
     },
     "bin": "dust.exe",
