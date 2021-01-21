@@ -1,6 +1,6 @@
 # carrot
 
-Custom scoop packages
+huangnauh's personal scoop bucket
 
 ## Usage
 
