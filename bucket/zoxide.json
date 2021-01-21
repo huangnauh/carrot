@@ -1,0 +1,26 @@
+{
+    "version": "0.5.0",
+    "description": "A faster way to navigate your filesystem",
+    "homepage": "https://github.com/ajeetdsouza/zoxide",
+    "license": "MIT",
+    "notes": "See https://github.com/ajeetdsouza/zoxide#powershell for zoxide autoload",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.5.0/zoxide-x86_64-pc-windows-msvc.exe#/zoxide.exe",
+            "hash": "7f8cf76bd5c790399aa422f5232cff4945d298ffcf3a41cfa1832696c04c36b2"
+        }
+    },
+    "bin": "zoxide.exe",
+    "env_set": {
+        "_ZO_DATA_DIR": "$dir\\data"
+    },
+    "persist": "data",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v$version/zoxide-x86_64-pc-windows-msvc.exe#/zoxide.exe"
+            }
+        }
+    }
+}

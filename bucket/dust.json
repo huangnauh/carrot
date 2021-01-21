@@ -1,8 +1,8 @@
 {
     "version": "0.5.4",
-    "description": "A more intuitive version of du in rust",
+    "description": "du(1) - File space usage analyzer",
     "homepage": "https://github.com/bootandy/dust",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/bootandy/dust/releases/download/v0.5.4/dust-v0.5.4-x86_64-pc-windows-msvc.zip",
