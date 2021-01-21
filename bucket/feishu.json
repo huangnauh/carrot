@@ -1,0 +1,29 @@
+{
+    "homepage": "https://www.feishu.cn/",
+    "description": "Download the Feishu apps so you can connect with teammates anytime and anywhere",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://www.feishu.cn/en/terms"
+    },
+    "version": "3.40.3",
+    "url": "https://sf3-eecdn-tos.pstatp.com/obj/ee-appcenter/3cd560/Feishu-3.40.3.exe#/feishu-3.40.3.7z",
+    "hash": "md5:3cd5601cc4a65d95fa8f6533c9e3c297",
+    "shortcuts": [
+        [
+            "Lark.exe",
+            "飞书"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.feishu.cn/api/downloads",
+        "regex": "(?sm)Windows.*?https://(?<path>[\\w.-/].*?)/Feishu-(?<version>[\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://$matchPath/Feishu-$version.exe#/feishu-$version.7z",
+        "hash": {
+            "url": "https://www.feishu.cn/api/downloads",
+            "jsonpath": "$.versions.Windows.hash"
+        }
+    },
+    "notes": "We don't persist your FeiShu data, they are still storaged in '%APPDATA%\\Lark'."
+}
