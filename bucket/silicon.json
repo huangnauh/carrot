@@ -10,7 +10,10 @@
         }
     },
     "bin": "silicon.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/Aloxaf/silicon/releases",
+        "regex": "/silicon-v([\\d.]+)-x86_64-pc-windows-msvc\\.zip"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

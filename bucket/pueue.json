@@ -10,7 +10,10 @@
         }
     },
     "bin": "pueue.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/Nukesor/pueue/releases",
+        "regex": "/releases/tag/pueue-v([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
