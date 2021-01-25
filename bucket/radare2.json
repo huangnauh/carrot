@@ -28,7 +28,7 @@
     ],
     "checkver": {
         "url": "https://radare.mikelloc.com/list",
-        "regex": "msvc_64-([\\d.]+)\.zip"
+        "regex": "msvc_64-([\\d.]+)\\.zip"
     },
     "autoupdate": {
         "architecture": {
