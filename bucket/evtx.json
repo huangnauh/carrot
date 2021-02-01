@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/omerbenamram/evtx/releases/download/$version/evtx_dump-$version-x86_64-pc-windows-msvc.tar.gz"
+                "url": "https://github.com/omerbenamram/evtx/releases/download/v$version/evtx_dump-v$version-x86_64-pc-windows-msvc.tar.gz"
             }
         }
     }
