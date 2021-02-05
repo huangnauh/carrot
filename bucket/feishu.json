@@ -10,16 +10,16 @@
     "hash": "md5:3cd5601cc4a65d95fa8f6533c9e3c297",
     "shortcuts": [
         [
-            "Lark.exe",
+            "feishu.exe",
             "飞书"
         ]
     ],
     "checkver": {
         "url": "https://www.feishu.cn/api/downloads",
-        "regex": "(?sm)Windows.*?https://(?<path>[\\w.-/].*?)/Feishu-(?<version>[\\d.]+).exe"
+        "regex": "(?sm)Windows.*?https://(?<path>[\\w.-/].*?)/feishu-win-(?<version>[\\d.]+)-signed.exe"
     },
     "autoupdate": {
-        "url": "https://$matchPath/Feishu-$version.exe#/feishu-$version.7z",
+        "url": "https://$matchPath/feishu-win--$version-signed.exe#/feishu-$version.7z",
         "hash": {
             "url": "https://www.feishu.cn/api/downloads",
             "jsonpath": "$.versions.Windows.hash"
