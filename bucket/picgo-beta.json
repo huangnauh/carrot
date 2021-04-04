@@ -1,12 +1,12 @@
 {
-    "version": "2.3.0-beta.4",
+    "version": "2.3.0-beta.5",
     "description": "Image uploader/manager",
     "homepage": "https://picgo.github.io/PicGo-Doc/en/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.4/PicGo-Setup-2.3.0-beta.4.exe#/dl.7z",
-            "hash": "sha512:3b28cb52431a5a67e73b69a41a32a9d55b916d71d43745e36fe968462c47b1f9e3ebe9193c5e9adae806a50d57b5416f4a43ed365b7988495ae718c7cf17440b",
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.5/PicGo-Setup-2.3.0-beta.5.exe#/dl.7z",
+            "hash": "sha512:7fb58ecec8e700546ab4df0f7e2aab2734adbe346f5d8a5d9d8370eac59ed847c56d873e972c1030f2e1ee1a7b6c9f52d6697f14edcf4617dbe679f7bd634465",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
