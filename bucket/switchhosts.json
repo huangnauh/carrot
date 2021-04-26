@@ -1,0 +1,28 @@
+{
+    "version": "4.0.0.6029",
+    "description": "Hosts management & switching",
+    "homepage": "https://oldj.github.io/SwitchHosts/",
+    "license": "MIT",
+    "url": "https://github.com/oldj/SwitchHosts/releases/download/v4.0.0/SwitchHosts_portable_4.0.0.6029.exe#/SwitchHosts.exe",
+    "hash": "9d74333f93a6f330f23a5dac5bfabe25a5d3ca62cb30993a47733b8ddeebbfd5",
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse",
+            "if (!(Test-Path \"$persist_dir\\data\") -and (Test-Path \"$env:USERPROFILE\\.SwitchHosts\")) {",
+            "    info \"Migrating '$env:USERPROFILE\\.SwitchHosts' to '$persist_dir\\data'\"",
+            "    ensure \"$dir\\data\" | Out-Null",
+            "    Copy-Item \"$env:USERPROFILE\\.SwitchHosts\\*\" \"$dir\\data\" -Recurse -Force",
+            "    Remove-Item \"$env:USERPROFILE\\.SwitchHosts\" -Recurse",
+            "}"
+        ]
+    },
+    "shortcuts": [["SwitchHosts.exe", "SwitchHosts"]],
+    "persist": "data",
+    "checkver": {
+        "github": "https://github.com/oldj/SwitchHosts",
+        "regex": "SwitchHosts_portable_([\\d.]+)\\.exe"
+    },
+    "autoupdate": {
+        "url": "https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_portable_$version.exe#/SwitchHosts.exe"
+    }
+}
