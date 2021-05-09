@@ -1,10 +1,10 @@
 {
-    "version": "4.0.0.6029",
+    "version": "4.0.1.6051",
     "description": "Hosts management & switching",
     "homepage": "https://oldj.github.io/SwitchHosts/",
     "license": "MIT",
-    "url": "https://github.com/oldj/SwitchHosts/releases/download/v4.0.0/SwitchHosts_portable_4.0.0.6029.exe#/SwitchHosts.exe",
-    "hash": "9d74333f93a6f330f23a5dac5bfabe25a5d3ca62cb30993a47733b8ddeebbfd5",
+    "url": "https://github.com/oldj/SwitchHosts/releases/download/v4.0.1/SwitchHosts_portable_4.0.1.6051.exe#/SwitchHosts.exe",
+    "hash": "5ef08888077d08a68ac115304bafd1e294e77349913b31c0c765a9ccd9bbeb60",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse",
@@ -16,7 +16,12 @@
             "}"
         ]
     },
-    "shortcuts": [["SwitchHosts.exe", "SwitchHosts"]],
+    "shortcuts": [
+        [
+            "SwitchHosts.exe",
+            "SwitchHosts"
+        ]
+    ],
     "persist": "data",
     "checkver": {
         "github": "https://github.com/oldj/SwitchHosts",
