@@ -1,18 +1,18 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "An idiomatic, modern, lean, fast, safe & pure rust implementation of git",
     "homepage": "https://github.com/Byron/gitoxide",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Byron/gitoxide/releases/download/v0.6.0/gix-max-v0.6.0-x86_64-pc-windows-msvc.zip",
-            "hash": "a989f77de11e18d413cab05aa81f34a054be6f5c0dd0170c967e58daf2d54939",
-            "extract_dir": "gix-max-v0.6.0-x86_64-pc-windows-msvc"
+            "url": "https://github.com/Byron/gitoxide/releases/download/v0.7.0/gix-max-v0.7.0-x86_64-pc-windows-msvc.zip",
+            "hash": "48044ba3da96cbfa99fe89112e5002afb6a541bae36ed97b7f050ff03a784c5c",
+            "extract_dir": "gix-max-v0.7.0-x86_64-pc-windows-msvc"
         },
         "32bit": {
-            "url": "https://github.com/Byron/gitoxide/releases/download/v0.6.0/gix-max-v0.6.0-i686-pc-windows-msvc.zip",
-            "hash": "b885e8c52ece00d7d0fd5e022a63eda6af8ea788877334a6d616a97c6a5caf3e",
-            "extract_dir": "gix-max-v0.6.0-i686-pc-windows-msvc.zip"
+            "url": "https://github.com/Byron/gitoxide/releases/download/v0.7.0/gix-max-v0.7.0-i686-pc-windows-msvc.zip",
+            "hash": "d9ad52237dff2a3f8014b49d4ffbac93f3f7c3cafa825d0dc6adfcb303d639d8",
+            "extract_dir": "gix-max-v0.7.0-i686-pc-windows-msvc.zip"
         }
     },
     "bin": [
