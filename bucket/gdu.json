@@ -1,0 +1,31 @@
+{
+    "version": "5.0.0",
+    "description": "Disk usage analyzer with console interface written in Go",
+    "homepage": "https://github.com/dundee/gdu/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dundee/gdu/releases/download/v5.0.0/gdu_windows_amd64.exe.zip",
+            "hash": "D54671E7073EF21846BFA2BA2D6943614AD6703460A90BD3C52E32C94B931685",
+            "bin": [
+                [
+                    "gdu_windows_amd64.exe",
+                    "gdu"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/dundee/gdu"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dundee/gdu/releases/download/v$version/gdu-windows-amd64.exe.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums.txt"
+        }
+    }
+}
