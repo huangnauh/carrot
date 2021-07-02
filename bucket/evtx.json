@@ -9,12 +9,12 @@
             "hash": "8039d954464e0d1c8e3a011e99222801d9fe85ba4bcc20ab4685c13344bc463b"
         }
     },
-    "bin": "evtx_dump.exe/evtx_dump.exe",
+    "bin": "evtx_dump.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/omerbenamram/evtx/releases/download/v$version/evtx_dump-v$version-x86_64-pc-windows-msvc.tar.gz"
+                "url": "https://github.com/omerbenamram/evtx/releases/download/v$version/evtx_dump-v$version.exe#/evtx_dump.exe"
             }
         }
     }
