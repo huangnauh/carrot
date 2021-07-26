@@ -1,7 +1,7 @@
 {
-    "version": "1.100",
+    "version": "2.11.3",
     "description": "make your ssh client smarter",
-    "homepage": "https://manfred.life/assh",
+    "homepage": "https://github.com/moul/assh",
     "license": "MIT",
     "url": "https://github.com/moul/assh/releases/download/v2.11.3/assh_windows_amd64.exe#/assh.exe",
     "hash": "B2868BAE6D521ED0385E9A0D1E6F30FD312A5F2CE2500A6DA0AAF72D314E27DD",
