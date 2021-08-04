@@ -7,12 +7,15 @@
         "64bit": {
             "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.6/PicGo-Setup-2.3.0-beta.6.exe#/dl.7z",
             "hash": "sha512:d31fe07857ddb8e1803aaf744fd752e75a2451a7195160be553e307a52cf87f2f54cfc1a3ec551d408f30eddc254f740f297760248dea14e7889200955393e58",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
-            ]
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+        },
+        "32bit": {
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.6/PicGo-Setup-2.3.0-beta.6.exe#/dl.7z",
+            "hash": "sha512:d31fe07857ddb8e1803aaf744fd752e75a2451a7195160be553e307a52cf87f2f54cfc1a3ec551d408f30eddc254f740f297760248dea14e7889200955393e58",
+            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
         }
     },
+    "post_install":  "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse",
     "bin": "PicGo.exe",
     "shortcuts": [
         [
@@ -20,18 +23,18 @@
             "PicGo"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/Molunerfinn/PicGo/releases",
-        "regex": "/PicGo-Setup-([\\w.-]+)\\.exe"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/PicGo-Setup-$version.exe#/dl.7z",
+                "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/PicGo-Setup-$version-x64.exe#/dl.7z",
                 "hash": {
                     "url": "$baseurl/latest.yml",
                     "regex": "sha512:\\s+$base64"
                 }
+            },
+            "32bit": {
+                "url": "https://github.com/Molunerfinn/PicGo/releases/download/v$version/PicGo-Setup-$version-ia32.exe#/dl.7z"
             }
         }
     }
