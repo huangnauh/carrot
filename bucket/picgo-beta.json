@@ -25,7 +25,7 @@
     ],
     "checkver": {
         "url": "https://github.com/Molunerfinn/PicGo/releases",
-        "regex": "/PicGo/tree/v([\\w.-]+)\\"
+        "regex": "/PicGo/tree/v([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {
