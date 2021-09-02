@@ -25,10 +25,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/iawia002/annie/releases/download/$version/annie_$version_Windows_64-bit.zip"
+                "url": "https://github.com/iawia002/annie/releases/download/v$version/annie_$version_Windows_64-bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/iawia002/annie/releases/download/$version/annie_$version_Windows_32-bit.zip"
+                "url": "https://github.com/iawia002/annie/releases/download/v$version/annie_$version_Windows_32-bit.zip"
             }
         },
         "hash": {
