@@ -1,17 +1,17 @@
 {
-    "version": "2.3.0-beta.8",
+    "version": "2.3.0",
     "description": "Image uploader/manager",
     "homepage": "https://picgo.github.io/PicGo-Doc/en/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.8/PicGo-Setup-2.3.0-beta.8-x64.exe#/dl.7z",
-            "hash": "sha512:52974ad8b5ae9d90e3465bd2631ac82f6ad47840091bc361ecf9d96449e2014f72ba7dbf58643d6352bc4a3e291b3f49a15049788a8da489bacee70369d229c3",
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0/PicGo-Setup-2.3.0-x64.exe#/dl.7z",
+            "hash": "sha512:c81ec09a612de90c3982dc508ed81620702c577a3288fa15adf71dea0adee7fe36f30f92ed4a1a5a64d5c971fac68f603bd1cd4e551c3adf742360c4da16bc0e",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         },
         "32bit": {
-            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0-beta.8/PicGo-Setup-2.3.0-beta.8-ia32.exe#/dl.7z",
-            "hash": "14875cecfb89d4507bf876727c1f02f244494030cae9022cf892b8a68a93c409",
+            "url": "https://github.com/Molunerfinn/PicGo/releases/download/v2.3.0/PicGo-Setup-2.3.0-ia32.exe#/dl.7z",
+            "hash": "78cbd6ea2618777f369304120cd8d7341f960017a89e5e017f9430a7a3c6d41c",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
         }
     },
