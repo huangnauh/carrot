@@ -12,7 +12,7 @@
     "bin": "pueued.exe",
     "checkver": {
         "url": "https://github.com/Nukesor/pueue/releases",
-        "regex": "/releases/tag/pueue-v([\\d.]+)"
+        "regex": "/Nukesor/pueue/tree/v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
