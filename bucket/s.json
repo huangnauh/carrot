@@ -1,16 +1,16 @@
 {
-    "version": "0.5.16",
+    "version": "0.6.0",
     "description": "Open a web search in your terminal",
     "homepage": "https://github.com/huangnauh/s",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/huangnauh/s/releases/download/v0.6.0/s_0.6.0_Windows_x86_64.zip",
-            "hash": "f5a5b07a2977480950918daa405aed02dbcb0e37720691bacbeb8fb6facc5cbd"
+            "hash": "a2ffe99e22e84d4f0d83a2f5847607dd6b7dfa60c1779ca2ec193bc1b62a8190"
         },
         "32bit": {
             "url": "https://github.com/huangnauh/s/releases/download/v0.6.0/s_0.6.0_Windows_i386.zip",
-            "hash": "a710f36c90226f3810452be7ca45ec6e393388c8653d7477bd36885038653ffe"
+            "hash": "fb0f0adf794f5b5440662000bad0e3a4347963ac1dfcdefc1ae7af8c46d212ed"
         }
     },
     "bin": "s.exe",
