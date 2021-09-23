@@ -1,10 +1,10 @@
 {
-    "version": "2.0.2",
+    "version": "2.2.1",
     "description": "字幕查找器",
     "homepage": "https://github.com/ausaki/subfinder",
     "license": "MIT",
     "url": "https://github.com/ausaki/subfinder/releases/download/v2.2.1/SubFinder.exe",
-    "hash": "aced16cf39b8080cad1ff53d4fc524a42bd902b62c917dedd3cdd6ba1c046d8d",
+    "hash": "dd3abaad0ad1b66dc1d2b01f163a961f33745d21f65493cf2d76149fb0dcd012",
     "bin": "SubFinder.exe",
     "checkver": "github",
     "autoupdate": {
