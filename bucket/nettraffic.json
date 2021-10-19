@@ -1,5 +1,5 @@
 {
-    "version": "1.66.2",
+    "version": "1.66.1",
     "description": "Essential network bandwidth usage monitor",
     "homepage": "https://www.venea.net/web/nettraffic",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.venea.net/web/nettraffic#license"
     },
     "url": "https://files02.tchspt.com/storage2/temp/NetTraffic1.66.2.zip",
-    "hash": "md5:a7d8ffbf810b18ecf99a37aaf2318259",
+    "hash": "md5:d017f9d2a120fec2f1c5ce962ae69cb4",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\NetTraffic $version.exe\" -Removal",
         "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Recurse"
@@ -20,13 +20,13 @@
     ],
     "persist": "Data",
     "checkver": {
-        "url": "https://www.venea.net/web/downloads_start/nettraffic_portable",
+        "url": "https://www.venea.net/web/downloads_start/nettraffic",
         "regex": "Version: ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://files02.tchspt.com/storage2/temp/NetTraffic$version.zip",
         "hash": {
-            "url": "https://www.venea.net/web/downloads_start/nettraffic_portable",
+            "url": "https://www.venea.net/web/downloads_start/nettraffic",
             "regex": "\\(md5\\):\\s*$md5"
         }
     }
