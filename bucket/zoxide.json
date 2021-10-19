@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v$version/zoxide-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v$version/zoxide-v$version-x86_64-pc-windows-msvc.zip"
             }
         }
     }
