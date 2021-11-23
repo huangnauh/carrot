@@ -7,6 +7,11 @@
     "hash": "b492b8f89720613d891110a8dec8b8f86769044464f98c67aa11782b455145a5",
     "bin": "yarr.exe",
     "checkver": "github",
+    "env_set": {
+        "YARR_DB": "$dir\\data\\yarr.db",
+        "YARR_LOGFILE": "$dir\\data\\yarr.log"
+    },
+    "persist": "data",
     "autoupdate": {
         "url": "https://github.com/nkanaev/yarr/releases/download/v$version/yarr-v$version-windows64.zip"
     }
