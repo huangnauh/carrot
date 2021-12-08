@@ -11,13 +11,13 @@
     },
     "bin": "gping.exe",
     "checkver": {
-        "url": "https://github.com/orf/gping/releases",
-        "regex": "\\/releases\\/tag\\/(?:v|V)?([\\d.]+)"
+        "url": "https://github.com/orf/gping",
+        "regex": "gping-v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/orf/gping/releases/download/v$version/gping-Windows-x86_64.zip"
+                "url": "https://github.com/orf/gping/releases/download/gping-v$version/gping-Windows-x86_64.zip"
             }
         }
     }
