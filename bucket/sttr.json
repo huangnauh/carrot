@@ -1,16 +1,16 @@
 {
-    "version": "0.2.8",
+    "version": "0.2.9",
     "description": "Run various transformation operations on the string",
     "homepage": "https://github.com/abhimanyu003/sttr",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/abhimanyu003/sttr/releases/download/v0.2.8/sttr_0.2.8_windows_amd64.tar.gz",
-            "hash": "519445d8129a66a079b98387f21ed1ee92afc716c14f725a7a3331d41ea04e22"
+            "url": "https://github.com/abhimanyu003/sttr/releases/download/v0.2.9/sttr_0.2.9_windows_amd64.tar.gz",
+            "hash": "91cea1b3f4c8e741a546eef1538a613adc00ee49d72ec259430be2b82fb49ad1"
         },
         "32bit": {
-            "url": "https://github.com/abhimanyu003/sttr/releases/download/v0.2.8/sttr_0.2.8_windows_386.tar.gz",
-            "hash": "2d921b955c3cf1b2c15e7005f0d368ca4c1a1d8e67ed6563fafe2a6ca6ac3274"
+            "url": "https://github.com/abhimanyu003/sttr/releases/download/v0.2.9/sttr_0.2.9_windows_386.tar.gz",
+            "hash": "81ce1e1d16fbc019ce73e0211f53aed81ae6f75c49328635148280f2aeaf52a1"
         }
     },
     "bin": "sttr.exe",
