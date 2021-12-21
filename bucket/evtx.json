@@ -1,12 +1,12 @@
 {
-    "version": "0.7.1",
+    "version": "0.7.2",
     "description": "A Fast (and safe) parser for the Windows XML Event Log (EVTX) format",
     "homepage": "https://github.com/omerbenamram/evtx",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/omerbenamram/evtx/releases/download/v0.7.1/evtx_dump-v0.7.1.exe#/evtx_dump.exe",
-            "hash": "01ced2ca93496468289682f15db3b5e42cd62553ea802f3485ac918107eedb27"
+            "url": "https://github.com/omerbenamram/evtx/releases/download/v0.7.2/evtx_dump-v0.7.2.exe#/evtx_dump.exe",
+            "hash": "b5c44f9837a80085bd2a6816ddb87c9815ba0c92cfb4590fa8b6ca525aa96c0b"
         }
     },
     "bin": "evtx_dump.exe",
