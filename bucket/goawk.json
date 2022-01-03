@@ -1,16 +1,16 @@
 {
-    "version": "1.9.2",
+    "version": "1.10.0",
     "description": "GoAWK: an AWK interpreter written in Go",
     "homepage": "https://github.com/benhoyt/goawk",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/benhoyt/goawk/releases/download/v1.9.2/goawk_v1.9.2_windows_amd64.zip",
-            "hash": "c2750dde450e92ef2e166ce93590ec81c703b736cacd88a931b535a8a8bc133d"
+            "url": "https://github.com/benhoyt/goawk/releases/download/v1.10.0/goawk_v1.10.0_windows_amd64.zip",
+            "hash": "7511adcb3b1dfaee8fb2b86d4212f056320bcd9711863bf6104f233283f36bf6"
         },
         "32bit": {
-            "url": "https://github.com/benhoyt/goawk/releases/download/v1.9.2/goawk_v1.9.2_windows_386.zip",
-            "hash": "38dc6f043d7a33c29d82ade150b904cc42cbc6601107535c848a5cd50de7c7b5"
+            "url": "https://github.com/benhoyt/goawk/releases/download/v1.10.0/goawk_v1.10.0_windows_386.zip",
+            "hash": "2a5e4868c75a0dac8dcc810082871cc17b29070a2b28a3a1a333e78f0fb1ed0f"
         }
     },
     "bin": "goawk.exe",
