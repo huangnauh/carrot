@@ -1,13 +1,13 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "Content aware image resize library",
     "homepage": "https://github.com/esimov/caire",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/esimov/caire/releases/download/v1.4.0/caire-1.4.0-windows-amd64.zip",
-            "hash": "caf2bcd23220b35ed8eef90d700e38a5add79c09a6684f8b9e2fca157ee21271",
-            "extract_dir": "caire-1.4.0-windows-amd64"
+            "url": "https://github.com/esimov/caire/releases/download/v1.4.1/caire-1.4.1-windows-amd64.zip",
+            "hash": "6cc26230144905b41980a656d10815257ecc8e7215a2b433b33ec0036740100e",
+            "extract_dir": "caire-1.4.1-windows-amd64"
         }
     },
     "bin": "caire.exe",
