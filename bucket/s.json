@@ -1,16 +1,18 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.4",
     "description": "Open a web search in your terminal",
     "homepage": "https://github.com/zquestz/s",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/huangnauh/s/releases/download/v0.6.0/s_0.6.0_Windows_x86_64.zip",
-            "hash": "a2ffe99e22e84d4f0d83a2f5847607dd6b7dfa60c1779ca2ec193bc1b62a8190"
+            "url": "https://github.com/zquestz/s/releases/download/v0.6.4/s-windows_amd64.zip",
+            "hash": "c67c39ed77adea783812cbc81c8b0351a4a97d375fbb8569879c004659257de5",
+            "extract_dir": "s-windows_amd64"
         },
         "32bit": {
-            "url": "https://github.com/huangnauh/s/releases/download/v0.6.0/s_0.6.0_Windows_i386.zip",
-            "hash": "fb0f0adf794f5b5440662000bad0e3a4347963ac1dfcdefc1ae7af8c46d212ed"
+            "url": "https://github.com/zquestz/s/releases/download/v0.6.4/s-windows_386.zip",
+            "hash": "1522f6d6c9a79a469eea8513aa5cf8bb8c482dc5a83af4d7281c5defb7a618b3",
+            "extract_dir": "s-windows_386"
         }
     },
     "bin": "s.exe",
@@ -18,10 +20,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zquestz/s/releases/download/v$version/s-windows_amd64.zip"
+                "url": "https://github.com/zquestz/s/releases/download/v$version/s-windows_amd64.zip",
+                "extract_dir": "s-windows_amd64"
             },
             "32bit": {
-                "url": "https://github.com/zquestz/s/releases/download/v$version/s-windows_386.zip"
+                "url": "https://github.com/zquestz/s/releases/download/v$version/s-windows_386.zip",
+                "extract_dir": "s-windows_386"
             }
         }
     }
