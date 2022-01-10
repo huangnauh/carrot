@@ -1,7 +1,7 @@
 {
     "version": "0.6.0",
     "description": "Open a web search in your terminal",
-    "homepage": "https://github.com/huangnauh/s",
+    "homepage": "https://github.com/zquestz/s",
     "license": "MIT",
     "architecture": {
         "64bit": {
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/huangnauh/s/releases/download/v$version/s_$version_Windows_x86_64.zip"
+                "url": "https://github.com/zquestz/s/releases/download/v$version/s-windows_amd64.zip"
             },
             "32bit": {
-                "url": "https://github.com/huangnauh/s/releases/download/v$version/s_$version_Windows_i386.zip"
+                "url": "https://github.com/zquestz/s/releases/download/v$version/s-windows_386.zip"
             }
         }
     }
