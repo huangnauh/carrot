@@ -1,12 +1,12 @@
 {
-    "version": "1.0.6",
+    "version": "2.0.0",
     "description": "Manage your shell commands.Pueue is the client.",
     "homepage": "https://github.com/Nukesor/pueue",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nukesor/pueue/releases/download/v1.0.6/pueue-windows-x86_64.exe#/pueue.exe",
-            "hash": "b28c10ce87e66e9d2f30b5da8866cc37fffae8a07fd7fafeab17b27bee75cc9d"
+            "url": "https://github.com/Nukesor/pueue/releases/download/v2.0.0/pueue-windows-x86_64.exe#/pueue.exe",
+            "hash": "65666a7513f5c7d7d6c497f7d274f699ac1ab7df8c4230ff3d063999516e82b5"
         }
     },
     "bin": "pueue.exe",
