@@ -1,12 +1,12 @@
 {
-    "version": "1.6.7",
+    "version": "1.6.8",
     "description": "The power of curl, the ease of use of httpie.",
     "homepage": "https://github.com/rs/curlie",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rs/curlie/releases/download/v1.6.7/curlie_1.6.7_windows_amd64.tar.gz",
-            "hash": "ba71e58b4511a440cff55b9c75359acab1577da88d4bb4213ed3f39800ce98b4"
+            "url": "https://github.com/rs/curlie/releases/download/v1.6.8/curlie_1.6.8_windows_amd64.tar.gz",
+            "hash": "10ab07eb2fcc7cacf0d5e1089a2b0a11c0364f0932392e76714094016578bc40"
         }
     },
     "bin": "curlie.exe",
