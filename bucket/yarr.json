@@ -1,10 +1,10 @@
 {
-    "version": "2.2",
+    "version": "2.0",
     "description": "yet another rss reader",
     "homepage": "https://github.com/nkanaev/yarr",
     "license": "MIT",
-    "url": "https://github.com/nkanaev/yarr/releases/download/v2.2/yarr-v2.2-windows64.zip",
-    "hash": "b492b8f89720613d891110a8dec8b8f86769044464f98c67aa11782b455145a5",
+    "url": "https://github.com/nkanaev/yarr/releases/download/v2.0/yarr-v2.0-windows64.zip",
+    "hash": "ef8d441c9a94a6fdf42c7256ea12fc8f83020f48eeafd81300a3cf0e8cb33c67",
     "bin": "yarr.exe",
     "checkver": "github",
     "env_set": {
