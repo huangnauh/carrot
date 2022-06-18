@@ -1,10 +1,10 @@
 {
-    "version": "5.12.3",
+    "version": "5.13",
     "description": "Allows you to configure various aspects of the Windows taskbar.",
     "homepage": "https://rammichael.com/7-taskbar-tweaker",
     "license": "Unknown",
     "url": "https://rammichael.com/downloads/7tt_setup.exe",
-    "hash": "a010f23a4d41e590093a9419c17769680cf302dcabed0237273a97e05b2ab67f",
+    "hash": "7c6b3f5e7635f273060c0980a39ce050ce317af7abef8355443a853fec83c11e",
     "bin": "7+ Taskbar Tweaker.exe",
     "pre_install": "if(!(test-path \"$persist_dir\\7+ Taskbar Tweaker.ini\")) { Add-Content \"$dir\\7+ Taskbar Tweaker.ini\" \"[Config]`r`nupdcheckauto=0`r`nupdcheck=0\" }",
     "installer": {
