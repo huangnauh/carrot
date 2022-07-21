@@ -1,12 +1,12 @@
 {
-    "version": "1.12.0",
+    "version": "1.11.0",
     "description": "Cast media files to UPnP/DLNA Media Renderers and Smart TVs.",
     "homepage": "https://github.com/alexballas/go2tv",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alexballas/go2tv/releases/download/v1.12.0/go2tv_v1.12.0_windows_amd64.zip",
-            "hash": "65affd2ed9fb74353d69c3445c6d6ea0ecd0575132f5769e8a0b853230999c96"
+            "url": "https://github.com/alexballas/go2tv/releases/download/v1.11.0/go2tv_v1.11.0_windows_amd64.zip",
+            "hash": "ef639df0d05f6bd9938f5cafbf6281cd7b5878005860b9515c397a3e685df60f"
         }
     },
     "bin": "go2tv.exe",
