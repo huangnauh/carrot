@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pkolaczk/fclones/releases/download/v$version/fclones-$version-win.x86_64.zip"
+                "url": "https://github.com/pkolaczk/fclones/releases/download/v$version/fclones-$version-windows.x86_64.zip"
             }
         }
     }

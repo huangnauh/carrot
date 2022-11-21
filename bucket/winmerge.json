@@ -1,5 +1,5 @@
 {
-    "version": "2.16.18",
+    "version": "2.16.24",
     "description": "Differencing and merging tool, that compares both folders and files, presenting differences in a visual text format that is easy to understand and handle.",
     "homepage": "https://winmerge.org",
     "license": "GPL-2.0-only",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/winmerge/stable/2.16.18/winmerge-2.16.18-x64-exe.zip",
-            "hash": "251a85b3bac687974f360d3796048c20ded3bf0bd69e0d1cfd1db23d013f89ed"
+            "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.24/winmerge-2.16.24-x64-exe.zip",
+            "hash": "2de08c9d1d83049ce78b0a1ba532b22b5697bf93fd0cd23cd8d77343b2654885"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/winmerge/stable/2.16.18/winmerge-2.16.18-exe.zip",
-            "hash": "251a85b3bac687974f360d3796048c20ded3bf0bd69e0d1cfd1db23d013f89ed"
+            "url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.24/winmerge-2.16.24-exe.zip",
+            "hash": "c8624f40b30b358d8cc43a0195c44a526d8c0dfba6f2fdb50c61b0cc14fc6905"
         }
     },
     "extract_dir": "WinMerge",
@@ -28,11 +28,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/winmerge/stable/$version/winmerge-$version-x64-exe.zip"
+                "url": "https://github.com/WinMerge/winmerge/releases/download/v$version/winmerge-$version-x64-exe.zip"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/winmerge/stable/$version/winmerge-$version-exe.zip"
+                "url": "https://github.com/WinMerge/winmerge/releases/download/v$version/winmerge-$version-exe.zip"
             }
+        },
+        "hash": {
+            "url": "https://winmerge.org/downloads",
+            "regex": "(?sm)<dt>$basename</dt>.*?<dd><code>$sha256</code></dd>"
         }
     }
 }
