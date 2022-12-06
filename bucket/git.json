@@ -1,23 +1,26 @@
 {
-    "version": "2.37.3.windows.1",
+    "version": "2.38.1.windows.1",
     "description": "Distributed version control system",
     "homepage": "https://gitforwindows.org",
     "license": "GPL-2.0-only",
+    "notes": "Set Git Credential Manager Core by running: \"git config --global credential.helper manager-core\"",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/PortableGit-2.37.3-64-bit.7z.exe#/dl.7z",
-            "hash": "ecd013c3aecdde0ffb363d5058d379a9c4037ff9ffbc004218632e288490f35c"
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/PortableGit-2.38.1-64-bit.7z.exe#/dl.7z",
+            "hash": "cdcdb268aaed1dd2ac33d1dfdaf105369e3d7bd8d84d641d26d30b34e706b843"
         },
         "32bit": {
-            "url": "https://github.com/git-for-windows/git/releases/download/v2.37.3.windows.1/PortableGit-2.37.3-32-bit.7z.exe#/dl.7z",
-            "hash": "fbb50b45117ee1ca559e353f19b9a903f08febba50bd88fb4c3c3ddf533f024c"
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/PortableGit-2.38.1-32-bit.7z.exe#/dl.7z",
+            "hash": "d434ad45bd9060a99c1d58e9b2b09597c52035a6a3ebeb6a0fdc694092b298b5"
         }
     },
-    "post_install": "git config --global credential.helper manager-core",
     "bin": [
+        "bin\\sh.exe",
+        "bin\\bash.exe",
         "cmd\\git.exe",
         "cmd\\gitk.exe",
         "cmd\\git-gui.exe",
+        "cmd\\scalar.exe",
         "usr\\bin\\tig.exe",
         "git-bash.exe"
     ],
