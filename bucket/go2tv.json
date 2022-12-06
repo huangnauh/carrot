@@ -10,10 +10,7 @@
         }
     },
     "bin": "go2tv.exe",
-    "checkver": {
-        "url": "https://github.com/alexballas/go2tv/releases",
-        "regex": "/go2tv_v([\\w.-]+)_windows"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
