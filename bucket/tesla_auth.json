@@ -1,11 +1,11 @@
 {
-    "version": "0.5.3",
+    "version": "0.5.4",
     "description": "Securely generate API tokens for third-party access to your Tesla.",
     "homepage": "https://github.com/adriankumpf/tesla_auth",
     "license": "MIT",
-    "url": "https://github.com/adriankumpf/tesla_auth/releases/download/v0.5.3/tesla-auth-windows.tar.gz",
-    "hash": "b7625d7a34c1154d83f8c0613c0d4084d44e0e8514c94c828aefe8ed6fed3879",
-    "bin": ["tesla_auth.exe"],
+    "url": "https://github.com/adriankumpf/tesla_auth/releases/download/v0.5.4/tesla-auth-windows.tar.gz",
+    "hash": "08367e432ba8dfd140fbad4cf8b820cf7ecb66bef9a3d31a951f6d92fa7a82ea",
+    "bin": "tesla_auth.exe",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/adriankumpf/tesla_auth/releases/download/v$version/tesla-auth-windows.tar.gz",
