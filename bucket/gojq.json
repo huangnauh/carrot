@@ -11,10 +11,7 @@
         }
     },
     "bin": "gojq.exe",
-    "checkver": {
-        "url": "https://github.com/itchyny/gojq/releases",
-        "regex": "/gojq_v([\\w.-]+)_windows"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
