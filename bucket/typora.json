@@ -10,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": "https://typora.io/windows/typora-setup-x64.exe",
-            "hash": "2c2c80c32d813744b6d48851687c752e819c0cd4246440842effd3d10473dd22"
+            "hash": "1b7e6d1e2c232408755ecfda1e723d2a10e7d50a9ab7ffd750edb17dfa51cc49"
         },
         "32bit": {
             "url": "https://typora.io/windows/typora-setup-ia32.exe",
-            "hash": "e1e9aec7a251472c25afffcde292ea67fb913e8984c816b8e516244a3160effc"
+            "hash": "1455041c96b0b8e4fc069e5728ae300a68b1627d95b7c840f55871607407396b"
         }
     },
     "innosetup": true,
