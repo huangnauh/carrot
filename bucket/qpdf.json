@@ -19,10 +19,7 @@
         "bin\\qpdf.exe",
         "bin\\fix-qdf.exe"
     ],
-    "checkver": {
-        "github": "https://github.com/qpdf/qpdf",
-        "regex": "qpdf-([\\d.]+)-"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
