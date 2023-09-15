@@ -1,12 +1,12 @@
 {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "A modern, maintained replacement for ls",
     "homepage": "https://github.com/huangnauh/eza",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/huangnauh/eza/releases/download/v0.11.0/eza-x86_64-pc-windows-msvc.zip",
-            "hash": "8546d08556816f36e2257edeb789274478342898a859a2f993ca07cfca5b46e2"
+            "url": "https://github.com/huangnauh/eza/releases/download/v0.12.0/eza-x86_64-pc-windows-msvc.zip",
+            "hash": "3cf6b1009b74b5439f81efbb98c72d954437707d40dc324a2718e9efa57c7121"
         }
     },
     "bin": "eza.exe",
