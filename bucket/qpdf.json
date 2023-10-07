@@ -1,18 +1,18 @@
 {
-    "version": "11.6.1",
+    "version": "11.6.2",
     "description": "A command-line program that does structural, content-preserving transformations on PDF files.",
     "homepage": "https://github.com/qpdf/qpdf",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qpdf/qpdf/releases/download/v11.6.1/qpdf-11.6.1-mingw64.zip",
-            "hash": "453b163ae3aa576a94820e355e59cf2c1c780f7eb8f8fa8b3b955806562908b2",
-            "extract_dir": "qpdf-11.6.1-mingw64"
+            "url": "https://github.com/qpdf/qpdf/releases/download/v11.6.2/qpdf-11.6.2-mingw64.zip",
+            "hash": "78517ae8ef3d205649dbfc033a6517f5dc291e83aa3a3a64e8afe32dc0448fc8",
+            "extract_dir": "qpdf-11.6.2-mingw64"
         },
         "32bit": {
-            "url": "https://github.com/qpdf/qpdf/releases/download/v11.6.1/qpdf-11.6.1-mingw32.zip",
-            "hash": "486138eadc3737b06b0e32547f7011e3991080792a8c0198c0aed90ac8cbfa2a",
-            "extract_dir": "qpdf-11.6.1-mingw32"
+            "url": "https://github.com/qpdf/qpdf/releases/download/v11.6.2/qpdf-11.6.2-mingw32.zip",
+            "hash": "516a7d61d07ee247ddb88727d0795c48853de293f70f4366b02fc6b76d8abfc1",
+            "extract_dir": "qpdf-11.6.2-mingw32"
         }
     },
     "bin": [
