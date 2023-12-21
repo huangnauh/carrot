@@ -1,0 +1,23 @@
+{
+    "version": "0.1.5",
+    "description": "rename multiple files with editor",
+    "homepage": "https://github.com/itchyny/mmv",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/itchyny/mmv/releases/download/v0.1.6/mmv_v0.1.6_windows_amd64.zip",
+            "hash": "ca771edfe7f053ba8e6f1a211c4a58bb764ff6c1e166727aec519c5e1d15271c",
+            "extract_dir": "mmv_v0.1.6_windows_amd64"
+        }
+    },
+    "bin": "mmv.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/itchyny/mmv/releases/download/v$version/mmv_v$version_windows_amd64.zip",
+                "extract_dir": "mmv_v$version_windows_amd64"
+            }
+        }
+    }
+}
