@@ -16,7 +16,7 @@
     "bin": "upx.exe",
     "checkver": {
         "url": "http://collection.b0.upaiyun.com/softwares/upx/checksums.txt",
-        "re": "upx_([\\d.a-zA-Z\\-]+)_Windows_x86_64"
+        "re": "upx_([\\d.a-zA-Z\\-]+)_windows_amd64"
     },
     "autoupdate": {
         "architecture": {
