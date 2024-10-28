@@ -1,12 +1,12 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "A CLI tool that executes SQL queries on various files including xlsx files and outputs the results to various files",
     "homepage": "https://github.com/noborus/xlsxsql",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/noborus/xlsxsql/releases/download/v0.4.0/xlsxsql_0.4.0_Windows_x86_64.zip",
-            "hash": "8084d62247c22aa0f293210fc5d2d5fcd5a80bf760f0fe512f323f3e7c5b5853"
+            "hash": "042cfd8af2ab1e7ae8f0b5bcd1687d2bde65ad228b490ef48dcbc2a87fbddbf1"
         }
     },
     "bin": "xlsxsql.exe",
