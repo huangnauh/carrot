@@ -1,13 +1,13 @@
 {
-    "version": "6.0.6",
+    "version": "6.0.7",
     "description": "Portable reversing framework",
     "homepage": "https://github.com/radareorg/radare2",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/radareorg/radare2/releases/download/6.0.6/radare2-6.0.6-w64.zip",
-            "hash": "e197fd6500810c847bfc3378793aa2281dbcfd1d874b080e720f92f21709ec6e",
-            "extract_dir": "radare2-6.0.6-w64"
+            "url": "https://github.com/radareorg/radare2/releases/download/6.0.7/radare2-6.0.7-w64.zip",
+            "hash": "fa24bf76f1318853a0b87561c00e0a18524d63192c202104ea1ebe4f606a68f3",
+            "extract_dir": "radare2-6.0.7-w64"
         }
     },
     "bin": [
