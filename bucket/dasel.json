@@ -1,12 +1,12 @@
 {
-    "version": "3.7.0",
+    "version": "3.8.0",
     "description": "DAta-SELector. Command line utility for querying and modifying data structures inside JSON, TOML, YAML, ...",
     "homepage": "https://github.com/TomWright/dasel",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TomWright/dasel/releases/download/v3.7.0/dasel_windows_amd64.exe#/dasel.exe",
-            "hash": "2fccc4ea594169b439874d091e035272b844da2fd271e7369d060fc4f6c5c04b"
+            "url": "https://github.com/TomWright/dasel/releases/download/v3.8.0/dasel_windows_amd64.exe#/dasel.exe",
+            "hash": "0aa093f159cbb6d8182295edf705d8e718567d185d5120710867233ff5342e51"
         }
     },
     "bin": "dasel.exe",
