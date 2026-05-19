@@ -1,16 +1,16 @@
 {
-    "version": "2.70.3",
+    "version": "2.70.4",
     "description": "Manage your dotfiles across multiple diverse machines, securely.",
     "homepage": "https://chezmoi.io",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/twpayne/chezmoi/releases/download/v2.70.3/chezmoi_2.70.3_windows_i386.zip",
-            "hash": "8747e736d48a71652f477beefd7ad79d4e45156cabd71f10205dea5c0dc3c7ea"
+            "url": "https://github.com/twpayne/chezmoi/releases/download/v2.70.4/chezmoi_2.70.4_windows_i386.zip",
+            "hash": "dd1ecf81e6867278ac29e23fbe609aa3c7849186dbd0c263871d48f4eaaebf97"
         },
         "64bit": {
-            "url": "https://github.com/twpayne/chezmoi/releases/download/v2.70.3/chezmoi_2.70.3_windows_amd64.zip",
-            "hash": "d6985fd4cbbfda7fb50574a20b7f1fb1cf5c540da121cf1ebfd94461e861a3e3"
+            "url": "https://github.com/twpayne/chezmoi/releases/download/v2.70.4/chezmoi_2.70.4_windows_amd64.zip",
+            "hash": "760e6f772255c062afb2b370666fc5cbef2116fe110ede18a72d4fa57a6eaea7"
         }
     },
     "bin": "chezmoi.exe",
