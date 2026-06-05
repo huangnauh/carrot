@@ -1,12 +1,12 @@
 {
-    "version": "1.16.0",
+    "version": "1.16.2",
     "description": "AI coding agent, built for the terminal.",
     "homepage": "https://opencode.ai/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anomalyco/opencode/releases/download/v1.16.0/opencode-windows-x64.zip",
-            "hash": "400b1f2f450cd6c60bed0903e9a7a128e23b305282d618d14ff4a10d969a707b"
+            "url": "https://github.com/anomalyco/opencode/releases/download/v1.16.2/opencode-windows-x64.zip",
+            "hash": "68f276940190e64a0bbee254789e66e0b397a2685700327412096eca1f66308e"
         }
     },
     "bin": "opencode.exe",
